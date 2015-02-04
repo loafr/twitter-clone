@@ -167,14 +167,21 @@ body {
 		padding-left: 42px;
 	}
 
+	.expand-actions {
+		
+	}
+
 	.tweet-actions {
 		text-align: right;
+	}
+	.content:hover .tweet-actions li{  /* hover over .content, do this to .tweet-actions */
+		display: inline-block;
 	}
 		.tweet-actions ul {
 			list-style-type: none;
 		}
 			.tweet-actions li {
-				display: inline-block;
+				display: none;
 				font-size: 12px;
 				color: #2FC2EF;
 				cursor: pointer;
@@ -212,6 +219,7 @@ body {
 	.stats {
 		margin: 12px 0 12px 42px;
 		border-top: 1px solid #e8e8e8;
+		/*display: none;*/
 	}
 		.stats, .stats div {
 			box-sizing: border-box;
@@ -253,6 +261,7 @@ body {
 			position: relative;
 			clear: both;
 			padding-left: 43px;
+			/*display: none;*/
 		}
 			.reply .avatar {
 				position: absolute;
